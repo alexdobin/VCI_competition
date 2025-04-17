@@ -67,7 +67,7 @@ BEGIN {
         id["B"] = gene "_" transcript "_B";
     }
 
-    print id["A"], id["B"] > "guide_pairs_AB.csv";
+    print id["A"], id["B"] > "guide_pairs_AB_3p.csv";
 
     for (pos in pattern) {
         print id[pos], id[pos], read, pattern[pos], proto[pos], cr_type, "Non-Targeting,Non-Targeting"; # CR needs gene_ids, so for now will use Non-Targeting

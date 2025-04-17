@@ -1,0 +1,33 @@
+[gene-expression]
+reference,__replace_genomeDir__
+probe-set,__replace_probeSet__
+create-bam,false
+no-secondary,true
+
+[libraries]
+fastq_id,fastqs,lanes,feature_types,
+GEX,__replace_fastqDir__,any,Gene Expression,
+CRISPR,__replace_fastqDir__,any,CRISPR Guide Capture,
+
+[feature]
+reference,__replace_featRef__
+
+[samples]
+sample_id,probe_barcode_ids,description
+BC01,BC001,"BC01"
+BC02,BC002,"BC02"
+BC03,BC003,"BC03"
+BC04,BC004,"BC04"
+BC05,BC005,"BC05"
+BC06,BC006,"BC06"
+BC07,BC007,"BC07"
+BC08,BC008,"BC08"
+BC09,BC009,"BC09"
+BC10,BC010,"BC10"
+BC11,BC011,"BC11"
+BC12,BC012,"BC12"
+BC13,BC013,"BC13"
+BC14,BC014,"BC14"
+BC15,BC015,"BC15"
+BC16,BC016,"BC16"
+
